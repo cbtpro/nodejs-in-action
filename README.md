@@ -33,3 +33,10 @@ brew services start/restart/stop mongodb/brew/mongodb-community@5.0
 ```shell
 mongod --config /opt/homebrew/etc/mongod.conf
 ```
+
+进入mongodb命令行模式
+mongo
+
+use books;
+for(let i=0;i<2000000;i++){db.books.insert({number:i, name: `book${i}`})};
+WriteResult({ "nInserted" : 1 })
