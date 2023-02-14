@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-in-action",
+  "version": "1.0.0",
+  "description": "如果使用了nvm，则安装在当前node下面 参考 https://www.npmjs.com/package/commitizen",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbtpro/nodejs-in-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbtpro/nodejs-in-action/issues"
+  },
+  "homepage": "https://github.com/cbtpro/nodejs-in-action#readme",
+  "dependencies": {
+    "mongoose": "^6.9.1"
+  }
+}
